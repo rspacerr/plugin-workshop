@@ -1,0 +1,13 @@
+name: rcos-plugin
+version: '1.0-SNAPSHOT'
+main: org.rcos.rcosPlugin.RcosPlugin
+api-version: '1.21'
+commands:
+  helloworld:
+    description: Say hi
+    permission: minecraft.command.op
+  ping:
+    description: get ping
+  start:
+    description: start spleef
+    permission: minecraft.command.op
